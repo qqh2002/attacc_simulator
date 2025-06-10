@@ -258,7 +258,7 @@ class Ramulator:
                 # pCH * Rank * bank group
                 mem_acc *= 2 * 2 * 4
             else:
-                mem_acc *= 2
+                mem_acc *= 1
 
             ## si, tsv, giomux to bgmux, bgmux to column decoder, bank RD
             traffic = [si_io, tsv_io, giomux_io, bgmux_io, mem_acc]
